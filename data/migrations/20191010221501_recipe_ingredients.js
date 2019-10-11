@@ -28,7 +28,7 @@ exports.up = function(knex) {
       .notNullable();
 
     recipe_ingredients
-      .float('ingredients')
+      .float('quantity')
   
   });
 };
