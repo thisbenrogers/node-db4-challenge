@@ -5,7 +5,7 @@ exports.up = function(knex) {
     ingredients.increments();
     
     ingredients
-      .string('recipe_name', 255)
+      .string('ingredient_name', 255)
       .notNullable()
       .unique();
   
